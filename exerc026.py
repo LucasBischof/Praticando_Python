@@ -1,0 +1,6 @@
+nome = input('Digite seu nome completo: ').strip()
+filtro = (nome.upper().count('A'))
+print('Tem {} Letras A'.format(filtro))
+primeira = nome.upper().find('A')
+ultima = nome.upper().rfind('A')
+print('Ela apareceu a primeira vez {} e a ultima apareção {}'.format(primeira,ultima))

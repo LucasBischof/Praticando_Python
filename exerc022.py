@@ -1,0 +1,7 @@
+nome = input('Digite seu nome completo: ')
+dividindo = (nome.split())
+maius = (nome.upper())
+minus = (nome.lower())
+qtdtotal = (len(nome)-nome.count(' '))
+qtdprimeira = (len(dividindo[0]))
+print('Analisando seu nome\n Seu nome em maiúsculas é {}\n Seu nome em letras minusculas{}\n Seu nome ao total tem {} Seu primeiro nome tem {} letras '.format(maius,minus,qtdtotal,qtdprimeira))

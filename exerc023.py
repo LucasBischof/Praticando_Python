@@ -1,0 +1,6 @@
+num = input('Digite um numero de 0 a 9999: ')
+unidade = (num[3])
+dezena = (num[2])
+centena = (num[1])
+milhar = (num[0])
+print('Unidade: {}\n Dezena: {}\n Centena: {}\n Milhar: {} '.format(unidade,dezena,centena,milhar))
